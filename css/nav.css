@@ -1,0 +1,24 @@
+ul#menu li {
+    display: inline;
+    font-size: large;
+  }
+  
+  ul#menu a {
+    text-decoration: none;
+    color:white;
+    padding: .5em 2em .5em 2em;
+    
+  }
+
+  ul#menu a:hover {
+    background: rgb(54, 169, 236,.7);
+    padding: .5em 2em .5em 2em;
+    border-radius: 2%;
+    
+  }
+  
+  #menu li.active a {
+    background: rgb(54, 169, 236,.7);
+    padding: .5em 2em .5em 2em;
+    border-radius: 2%;
+  }

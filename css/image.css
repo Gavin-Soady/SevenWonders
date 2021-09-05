@@ -1,0 +1,116 @@
+.small-right-img {
+    width: 50px;
+    float: right;
+    margin: 10px;
+  }
+  
+  .medium-right-img {
+    width: 400px;
+    height: 300px;
+    float: right;
+    margin: 10px;
+    margin-top: 30px;
+
+  }
+  
+  .large-right-img {
+    width: 250px;
+    float: right;
+    margin: 10px;
+  }
+  
+  .small-left-img {
+    width: 50px;
+    float: left;
+    margin: 10px;
+  }
+  
+  .medium-left-img {
+    width: 150px;
+    float: left;
+    margin: 10px;
+  }
+  
+  .large-left-img {
+    width: 250px;
+    float: left;
+    margin: 10px;
+  }
+  
+  .small-centre-img {
+    display: block;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto
+  }
+  
+  .medium-centre-img {
+    display: block;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto
+  }
+  
+  .large-centre-img {
+    display: block;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto
+  }
+
+  #coverimage{
+    background-image: url("../images/coverimage.jpg");
+    
+  }
+  #navholdercover{
+    background-image: url("../images/coverimage.jpg");
+    
+  }
+
+  #coverdominican{
+    background-image: url("../images/dominicanrepublic.jpg");
+  }
+
+  #navholderdominican{
+    background-image: url("../images/dominicanrepublic.jpg");
+  }
+
+  #covermauritius{
+    background-image: url("../images/mauritius.jpg");
+  }
+  #navholdermauritius{
+    background-image: url("../images/mauritius.jpg");
+  }
+
+  #coverstlucia{
+    background-image: url("../images/stlucia2.jpg");
+  }
+  #navholderstlucia{
+    background-image: url("../images/stlucia2.jpg");
+    background-size: 101%;
+    
+  }
+  #coverseychelles{
+    background-image: url("../images/seychelles.jpg");
+  }
+  #navholderseychelles{
+    background-image: url("../images/seychelles.jpg");
+  }
+  #coverborabora{
+    background-image: url("../images/borabora.jpg");
+  }
+  #navholderborabora{
+    background-image: url("../images/borabora.jpg");
+  }
+  #coverbali{
+    background-image: url("../images/bali.jpg");
+  }
+  #navholderbali{
+    background-image: url("../images/bali.jpg");
+  }
+  #coverfiji{
+    background-image: url("../images/fiji.jpg");
+  }
+  #navholderfiji{
+    background-image: url("../images/fiji.jpg");
+  }
