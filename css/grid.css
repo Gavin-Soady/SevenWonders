@@ -1,29 +1,28 @@
 
 
 #primaryHome {
-  width:70%;
-  height: auto;
-  margin-left:10%;
-  padding-top: 50px;
+  width:85%;
+  height: 80%;
+  margin-left:7.5%;
+  padding-top: 10%;
   display: grid;
-  grid-template-columns: 70% 27%;
-  grid-gap: 3%;
+  grid-template-columns: 58% 40%;
+  grid-gap: 2%;
   position: relative;
-  
 }
+
 #primaryDom {
   width:70%;
-  height: fit-content;
-  margin-left:10%;
+  height: 85%;
+  margin-left:7.5%;
   padding-top: 50px;
   grid-column-start: 1;
   display: grid;
   grid-template-columns: 50% 50%;
-  grid-gap: 3%;
+  grid-gap: 2%;
   position: relative;
   
 }
-
 
 #secondary{
   grid-column-start: 2;
@@ -38,14 +37,34 @@
 .destinationpic{
   grid-column-start: 2;
 }
+
 .introgrid{
-  width:90%;
+  width:85%;
   height: auto;
-  margin-left:5%;
+  margin-left:7.5%;
   display: grid;
   grid-template-columns: 49% 49%;
   grid-gap: 2%;
-  border:1px solid black;
+}
+
+#mauritiushands{
+  width:85%;
+  height: auto;
+  margin-left:7.5%;
+  display: grid;
+  grid-template-columns: 80% 15%;
+  grid-gap: 2%;
+  margin-top: 10%;
+}
+
+#stluciahands{
+  width:85%;
+  height: auto;
+  margin-left:7.5%;
+  display: grid;
+  grid-template-columns: 80% 15%;
+  grid-gap: 2%;
+  margin-top: 10%;
 }
 
 .selectiongrid{
@@ -59,76 +78,199 @@
   position: sticky;
 }
 
-.hotelsgrid{
+.selectiongridseycelles{
+  grid-column-start: 1;
+  grid-column-end: span 2;
+  height: auto;
+  display: grid;
+  grid-template-columns: 13% 13% 13% 13% 13% 13% 13%;
+  grid-gap: 1.5%;
+  padding-top: 2%;
+  position: sticky;
+  top: 100px;
+  background-color: white;
+}
+
+.selectiongridbali{
   width:90%;
   height: auto;
   margin-left:5%;
+  display: grid;
+  grid-template-columns: 13% 13% 13% 13% 13% 13% 13%;
+  grid-gap: 1.5%;
+  padding-top: 2%;
+}
+
+.hotelsgrid{ 
+  width:85%;
+  height: auto;
+  margin-left:7.5%;
   display: grid;
   grid-template-columns: 100%;
   padding-top: 2%;
 }
 
+.selectiongridmauritius{
+  grid-column-start:2;
+  width:100%;
+  height: 30em;
+  display: grid;
+  grid-template-rows: 11em 11em 11em 11em 11em 11em 11em 6em;
+  grid-gap: 2em;
+  position: sticky;
+  padding-top: 1.5em;
+  padding-left: 3em;
+  padding-right: 3em;
+  top:3em;
+  overflow-y: scroll;
+}
+
+.selectiongridmauritius::-webkit-scrollbar {
+  display: none;
+}
+
+.hotelsgridmauritius{
+  grid-column-start:1;
+  width:100%;
+  height: auto;
+  display: grid;
+  grid-template-columns: 100%;
+}
+.hotelsgridseychelles{
+  grid-column-start:1;
+  width:85%;
+  margin:7.5%;
+  height: auto;
+  display: grid;
+  grid-template-columns: 100%;
+}
+
+
 .hoteldisplay{
   grid-column-start: 1;
   display: grid;
-  grid-template-columns: 50% 47%;
+  grid-template-columns: 53% 46%;
   grid-gap:3%;
-  margin-top:3%;
+  margin-bottom: 5%;
 
 }
 
+.hoteldisplaystlucia{
+  grid-column-start: 1;
+  display: grid;
+  grid-template-columns: 45% 50%;
+  grid-gap:5%;
+  margin-bottom: 5%;
 
+}
 
 #intro1{
-  border:1px solid black;
-  height:300px;
+  height:fit-content;
   grid-column-start: 1;
+  grid-column-end: span 2;
+  margin-top:40px;
 
 }
 #intro2{
-  border:1px solid black;
   height:300px;
-  grid-column-start: 2;
+  grid-column-start: 1;
+  grid-column-end: span 2;
+  margin-bottom:10px;
 
 }
 
 .hotel1{
   grid-column-start: 1;
-  height:220px;
-  border:1px solid black;
+  height:11em;
+  border:1px solid rgb(192,192,192);
+  padding: 1%;
+  background-color: white;
 }
+
 .hotel2{
   grid-column-start: 2;
-  height:220px;
-  border:1px solid black;
+  height:11em;
+  border:1px solid rgb(192,192,192);
+  padding: 1%;
+  background-color: white;
 }
+
 .hotel3{
   grid-column-start: 3;
-  height:220px;
-  border:1px solid black;
+  height:11em;
+  border:1px solid rgb(192,192,192);
+  padding: 1%;
+  background-color: white;
 }
+
 .hotel4{
   grid-column-start: 4;
-  height:220px;
-  border:1px solid black;
+  height:11em;
+  border:1px solid rgb(192,192,192);
+  padding: 1%;
+  background-color: white;
 }
+
 .hotel5{
   grid-column-start: 5;
-  height:220px;
-  border:1px solid black;
+  height:11em;
+  border:1px solid rgb(192,192,192);
+  padding: 1%;
+  background-color: white;
 }
 .hotel6{
   grid-column-start: 6;
-  height:220px;
-  border:1px solid black;
+  height:11em;
+  border:1px solid rgb(192,192,192);
+  padding: 1%;
+  background-color: white;
 }
 .hotel7{
   grid-column-start: 7;
-  height:220px;
-  border:1px solid black;
+  height:11em;
+  border:1px solid rgb(192,192,192);
+  padding: 1%;
+  background-color: white;
 }
 
 .hover:hover{
   box-shadow: 0px 3px 9px 5px rgba(0,0,0,0.75);
+  height:110%;
+  width:110%;
+  margin-top:-10%;
+  margin-left:-5%;
+  margin-bottom:-10%;
+  
+}
+
+.titlespeil{
+  grid-column-start: 1;
+  
+}
+
+.titlespeilsl{
+  grid-column-start: 2;
+  
+}
+
+.hotelm1{
+  grid-column-start: 1;
+  border:1px solid rgb(192,192,192);
+  padding: 1%;
+}
+
+.scrollfill{
+  grid-column-start: 1;
+  height: 100%;
+ 
+}
+
+.hotelm1:hover{
+  box-shadow: 0px 3px 9px 5px rgba(0,0,0,0.75);
+  height:110%;
+  width:110%;
+  margin-left:-5%;
+  margin-top:-10%;
+  z-index: 1;
 }
 

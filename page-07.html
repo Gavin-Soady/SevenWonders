@@ -2,9 +2,11 @@
   <head>
     <link rel="stylesheet" href="css/home.css">
     <title>Home Page</title>
-    <style>
-     
-  </style>
+    <script>
+      var shiftWindow = function() { scrollBy(0, -120) };
+        if (location.hash) shiftWindow();
+        window.addEventListener("hashchange", shiftWindow);  
+    </script>
   </head>
   <body>
     <div class="container">
@@ -32,52 +34,212 @@
         </h1>
       </div>
       </div>
-      <div id="maincontent">
-        <div id="primary">
-          <p>
-            Sed sed purus eu erat ullamcorper sollicitudin scelerisque aliquet
-            metus. Vestibulum sit amet leo at lectus venenatis malesuada.
-            Vivamus sollicitudin purus sit amet urna pulvinar venenatis. Nullam
-            sed scelerisque augue. Integer ipsum ante, dictum quis sollicitudin
-            non, euismod tristique eros.
-          </p>
-
-          <p>
-            <img src="./images/placeholder.png" class="medium-left-img">
-            Proin malesuada tincidunt auctor. Maecenas dapibus congue justo,
-            volutpat molestie lorem mattis eget. Nullam finibus turpis et
-            commodo hendrerit
-          </p>
-          <p>
-            Donec fringilla tortor non nibh sollicitudin suscipit. Sed vitae arcu consectetur, laoreet eros non, porta
-            ex. Nunc volutpat arcu non purus mattis, vel accumsan velit consectetur. Morbi sit amet leo mauris. Aliquam
-            non odio et urna commodo fermentum. Duis fermentum enim ac quam cursus, sit amet convallis turpis porta.
-            Cras consequat, lectus vel facilisis ullamcorper, justo risus malesuada nisl, pretium congue ex odio id
-            enim.
-          </p>
-          <p>
-            Nullam molestie lectus elit, eu euismod neque egestas vel. Nam a
-            ipsum urna. Donec sit amet pulvinar mi.
-          </p>
-        </div>
-        <div id="secondary">
-          <p>
-            <img src="./images/placeholder.png" class="small-left-img">
-            Curabitur elit erat, sollicitudin pellentesque tincidunt eu, blandit
-            a nisi. Etiam sit amet egestas nisl. Pellentesque vehicula velit
-            mollis, luctus lorem quis, ultrices justo.
-          </p>
-          <p>
-            <img src="./images/placeholder.png" class="small-left-img">
-            Vivamus posuere metus urna
-          </p>
-          <p>
-            <img src="./images/placeholder.png" class="small-right-img">
-            Class aptent taciti sociosqu ad litora torquent per conubia nostra,
-            per inceptos himenaeos.
-          </p>
-        </div>
-      </div>
+      <main id="maindom">
+        <section class="introgrid">
+          <div id="intro1">
+            <p>
+              Comprising of 333 islands, the archipelago of Fiji is a picture-perfect nirvana of
+              blissful beaches and crystal-clear waters. The pace is slow and the landscapes are
+              naturally beautiful, with friendly locals and sensational water sports only adding
+              to the enviable charm that makes Fiji such an awe-inspiring destination.
+            </p>
+            <p>
+              This place is truly akin to paradise, where cerulean seas meet powdery sands;
+              where tropical flora meets with cascading waterfalls.  The climate is also a highlight
+              of the region, where you can guarantee sun-kissed shores, balmy waters and cool island breezes.
+              Few places can surpass the awe-inspiring beauty of Fiji.
+            </p>
+            <p>
+              Take time out of revelling in the serenity of these islands to take a dip in the waters in search
+              of colourful marine life; go white water rafting or kayaking for an adrenalin rush; visit the eco
+              parks to seek out the remarkable wildlife or take part in a trek to the waterfalls to admire the
+              breath-taking scenery. There’s an activity for everyone, from the active to the relaxed.
+            </p>
+          </div>
+          <section class="selectiongridseycelles">
+            <div class="hotel1 hover">
+              <a href = "#hardrock">
+                <img src="./images/fijihotel/hotel1.jpg" class="small-centre-img">
+                <h4>Musket Cove Island Resort</h4>
+              </a>
+            </div>
+            <div class="hotel2 hover">
+              <a href = "#breathless">
+                <img src="./images/fijihotel/hotel2.jpg" class="small-centre-img">
+                <h4>Yasawa Island Resort and Spa</h4>
+              </a>
+            </div>
+            <div class="hotel3 hover">
+              <a href = "#secretsrb">
+                <img src="./images/fijihotel/hotel3.jpg" class="small-centre-img">
+                <h4>Castaway Island</h4>
+              </a>
+            </div>
+            <div class="hotel4 hover">
+              <a href = "#onyx">
+                <img src="./images/fijihotel/hotel4.jpg" class="small-centre-img">
+                <h4>Qamea Resort & Spa Fiji</h4>
+              </a>
+            </div>
+            <div class="hotel5 hover">
+              <a href = "#sivory">
+                <img src="./images/fijihotel/hotel5.jpg" class="small-centre-img">
+                <h4>Outrigger Fiji Beach Resort</h4>
+              </a>
+            </div>
+            <div class="hotel6 hover">
+              <a href = "#secretscc">
+                <img src="./images/fijihotel/hotel6.jpg" class="small-centre-img">
+                <h4>Tokoriki Island Resort</h4>
+              </a>
+            </div>
+            <div class="hotel7 hover ">
+              <a href = "#Eden">
+                <img src="./images/fijihotel/hotel7.jpg" class="small-centre-img">
+              <h4>Fiji Marriott Resort Momi Bay</h4>
+            </a>
+            </div>
+          </section>
+          <div id="intro2">
+            <h2>Location</h2>
+            <p>
+              Officially the Republic of Fiji is an island country in Melanesia,
+              part of Oceania in the South Pacific Ocean about 1,100 nautical miles
+              (2,000 km; 1,300 mi) northeast of New Zealand's North Island. 
+              Its closest neighbours are Vanuatu to the west, New Caledonia to the southwest, 
+              New Zealand's Kermadec Islands to the southeast, Tonga to the east,
+              the Samoas and France's Wallis and Futuna to the northeast, and Tuvalu to the north.
+              Fiji consists of an archipelago of more than 330 islands—of which 110 are permanently
+              inhabited—and more than 500 islets, amounting to a total land area of about 18,300 
+              square kilometres (7,100 sq mi). 
+            </p>
+          </div>
+        </section>
+        <section class="hotelsgridseychelles">
+          <div class="hoteldisplay" id="hardrock">
+            <div class="titlespeil">
+            <h3>Musket Cove Island Resort</h3>
+              <p>
+                Discover the luxury island experience at this beautiful beachfront resort,
+                nestled on the secluded Malolo Lailai in the Mamanuca Islands.
+                With complimentary watersports, a rejuvenating spa and sumptuous restaurants,
+                you'll never want to leave this intimate island.
+              </p>
+              <p>
+                For the true luxury island experience, travel to Musket Cove Island Resort in Fiji.
+                Sitting on the beautiful, secluded Malolo Lailai in the Mamanuca Islands, this beach
+                resort offers gorgeous villas and bures scattered along palm fringed beaches,
+                and throughout tropical landscaped gardens.
+              </p>
+          </div>
+            <img src="./images/domhotel/hardrock.jpg" class="medium-centre-img">
+            
+          </div>
+          <div class="hoteldisplay" id="breathless">
+            <div class="titlespeil">
+              <h3>Yasawa Island Resort and Spa</h3>
+              <p>
+                Yasawa translates as heaven in the Fiji language which suits this hotel perfectly.
+                The resort is situated on a remote isle, known for its 11 private white sand beaches
+                and crystal-clear tropical waters. There are no other resorts nearby, no televisions
+                and no traffic, just the sounds of the palm trees swaying in the breeze.
+              </p>
+              <p>
+                This five-star resort offers a version of their own all-inclusive basis where all meals,
+                snacks, non-alcoholic beverages, activities, motorised and non-motorised watersports
+                are all included.
+              </p>
+            </div>
+            <img src="./images/fijihotel/hotel2.jpg" class="medium-centre-img">
+          </div>
+          <div class="hoteldisplay" id="secretsrb">
+            <div class="titlespeil">
+              <h3>Castaway Island</h3>
+              <p>
+                A beautiful private island resort, Castaway Island offers a relaxed and stylish holiday
+                in Fiji in traditional bure accommodation. The island itself is unforgettably beautiful;
+                a ribbon of white sand beach encircling tropical forest – a truly romantic setting
+                for a getaway.
+              </p>
+              <p>
+                Equally well-suited to family getaways and romantic escapes, Castaway Island is a stylish 
+                resort with a great selection of facilities to enjoy, in addition to a beautiful tropical setting.
+              </p>
+            </div>
+            <img src="./images/fijihotel/hotel3.jpg" class="medium-centre-img">
+          </div>
+          <div class="hoteldisplay" id="onyx">
+            <div class="titlespeil">
+            <h3>Qamea Resort & Spa Fiji</h3>
+            <p>
+              Nestled on a luscious islet of the same name, this beautiful resort offers a tranquil,
+              secluded ambience amongst white sand beaches and verdant tropical flora.
+              Featuring just 17 bures, an exotic pool, a Jungle Spa,
+              and a deliciously fresh restaurant.
+            </p>
+            <p>
+              The luscious island of Qamea is shrouded in colourful jungle, framed by white sand beaches
+              and gently swaying palms. Nestled along the pristine sand lies the adults-only Qamea Resort & Spa,
+              a beautiful hotel where the ambience is tranquil, and the pace is slow and peaceful.
+           </p>
+            </div>
+            <img src="./images/fijihotel/hotel4.jpg" class="medium-centre-img">
+          </div>
+          <div class="hoteldisplay" id="sivory">
+            <div class="titlespeil">
+            <h3>Outrigger Fiji Beach Resort</h3>
+            <p>
+              Nestled along Fiji's Coral Coast, this luxurious resort offers friendly,
+              Fijian hospitality with spectacular views and indulgent amenities.
+              With traditional Fijian bures, a tropical pool and two cool kid's clubs,
+              this is a brilliant spot for families.
+            </p>
+            <p>
+              Enjoy a warming Bula welcome at Outrigger Fiji Beach Resort, a breath-taking resort 
+              nestled in the heart of Fiji’s Coral Coast on the island of Viti Levu. With friendly,
+              Fijian hospitality, delicious food, exciting family-friendly activities and a heavenly spa,
+              this resort is a paradise for families and couples alike.
+            </p>
+          </div>
+            <img src="./images/fijihotel/hotel5.jpg" class="medium-centre-img">
+          </div>
+          <div class="hoteldisplay" id="secretscc">
+            <div class="titlespeil">
+            <h3>Tokoriki Island Resort
+            </h3>
+            <p>
+              This is a gorgeous adults only boutique resort on the stunning Fijian island of Tokoriki.
+              Flanked by silvery sand and lush foliage, this is that South Pacific paradise that you’ve
+              been dreaming of. With superb facilities, jaw-dropping surroundings and exceptional staff,
+              the resort is perfect for honeymooners and couples looking for relaxation and romance.
+            </p > 
+            <p>
+              A charming adult-only beach property, Tokoriki Island Resort is surrounded by tropical
+               flora and looks out onto exotic scenery - a blissful setting for a romantic escape.
+            </p>
+          </div>
+            <img   src="./images/fijihotel/hotel6.jpg" class="medium-centre-img">
+            
+          </div>
+          <div class="hoteldisplay" id="Eden" >
+            <div class="titlespeil">
+            <h3>Fiji Marriott Resort Momi Bay</h3>
+            <p>
+              Wander along Momi Bay on Viti Levu and you'll find Fiji Marriott Resort Momi Bay,
+              a gorgeous resort offering tranquility and seclusion for anyone who crosses its path.
+              With over-water villas, minimalist decor and a soothing spa, this is the place to indulge.
+            </p> 
+            <p>
+              Perched along the golden sands of Momi Bay on Viti Levu, Fiji Marriott Resort Momi Bay
+              is a tranquil oasis perfect for those hoping to escape modern stresses.
+              With gorgeous over-water villas, delicious restaurants and three pools,
+              there’s something for everyone here.
+            </p>
+            </div>
+            <img src="./images/fijihotel/hotel7.jpg" class="medium-centre-img"> 
+          </div>
+        </section>
+      </main>
       <footer>
         <p>Spider-Web Design 2020</p>
       </footer>   

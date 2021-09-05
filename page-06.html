@@ -2,7 +2,11 @@
   <head>
     <link rel="stylesheet" href="css/home.css">
     <title>Home Page</title>
-    <style></style>
+    <script>
+      var shiftWindow = function() { scrollBy(0, -120) };
+        if (location.hash) shiftWindow();
+        window.addEventListener("hashchange", shiftWindow);  
+    </script>
   </head>
   <body>
     <div class="container">
@@ -30,52 +34,211 @@
         </h1>
       </div>
     </div>
-      <div id="maincontent">
-        <div id="primary">
+    <main id="maindom">
+      <section class="introgrid">
+        <div id="intro1">
           <p>
-            Sed sed purus eu erat ullamcorper sollicitudin scelerisque aliquet
-            metus. Vestibulum sit amet leo at lectus venenatis malesuada.
-            Vivamus sollicitudin purus sit amet urna pulvinar venenatis. Nullam
-            sed scelerisque augue. Integer ipsum ante, dictum quis sollicitudin
-            non, euismod tristique eros.
-          </p>
-
-          <p>
-            <img src="./images/placeholder.png" class="medium-left-img">
-            Proin malesuada tincidunt auctor. Maecenas dapibus congue justo,
-            volutpat molestie lorem mattis eget. Nullam finibus turpis et
-            commodo hendrerit
-          </p>
-          <p>
-            Donec fringilla tortor non nibh sollicitudin suscipit. Sed vitae arcu consectetur, laoreet eros non, porta
-            ex. Nunc volutpat arcu non purus mattis, vel accumsan velit consectetur. Morbi sit amet leo mauris. Aliquam
-            non odio et urna commodo fermentum. Duis fermentum enim ac quam cursus, sit amet convallis turpis porta.
-            Cras consequat, lectus vel facilisis ullamcorper, justo risus malesuada nisl, pretium congue ex odio id
-            enim.
-          </p>
-          <p>
-            Nullam molestie lectus elit, eu euismod neque egestas vel. Nam a
-            ipsum urna. Donec sit amet pulvinar mi.
+            As a part of the archipelago of Indonesia, Bali is an island in the middle of country
+            with other Indonesian islands either side of it and Malaysia to the north.
+            It is a true paradise with forest-clad hills, jutting mountains and perfect beaches.
+            <br><br>
+            Bali is a rare place with something to suit every traveller. Culture lovers can delve
+            in Bali’s spiritual past, sun seekers can lounge on volcanic black sand beaches and
+            foodies will be mesmerised by the choice of dishes on offer throughout the island.
+            <br><br>
+            Rich in temples and entrenched in their own unique cultural heritage, Bali’s
+            people are simultaneously warm, welcoming and subdued. Unlike Indonesia’s predominantly 
+            Muslim population, the citizens of Bali are primarily Hindu making it quite a different
+            experience from much of the country.
           </p>
         </div>
-        <div id="secondary">
+        <div id="intro2">
+          <h2>Location</h2>
           <p>
-            <img src="./images/placeholder.png" class="small-left-img">
-            Curabitur elit erat, sollicitudin pellentesque tincidunt eu, blandit
-            a nisi. Etiam sit amet egestas nisl. Pellentesque vehicula velit
-            mollis, luctus lorem quis, ultrices justo.
-          </p>
-          <p>
-            <img src="./images/placeholder.png" class="small-left-img">
-            Vivamus posuere metus urna
-          </p>
-          <p>
-            <img src="./images/placeholder.png" class="small-right-img">
-            Class aptent taciti sociosqu ad litora torquent per conubia nostra,
-            per inceptos himenaeos.
+            Bali is a province of Indonesia and the westernmost of the Lesser Sunda Islands.
+            Located east of Java and west of Lombok, the province includes the island of Bali
+            and a few smaller neighbouring islands, notably Nusa Penida, Nusa Lembongan, and
+            Nusa Ceningan. The provincial capital, Denpasar, is the most populous city in the
+            Lesser Sunda Islands and the second largest, after Makassar, in Eastern Indonesia.
           </p>
         </div>
-      </div>
+      </section>
+      
+      <section class="selectiongridbali">
+        <div class="hotel1 hover">
+          <a href = "#hardrock">
+            <img src="./images/balihotel/hotel1.jpg" class="small-centre-img">
+            <h4>The Laguna Resort & Spa</h4>
+          </a>
+        </div>
+        <div class="hotel2 hover">
+          <a href = "#breathless">
+            <img src="./images/balihotel/hotel2.jpg" class="small-centre-img">
+            <h4>Nusa Dua Beach Hotel and Spa</h4>
+          </a>
+        </div>
+        <div class="hotel3 hover">
+          <a href = "#secretsrb">
+            <img src="./images/balihotel/hotel3.jpg" class="small-centre-img">
+            <h4>Melia Bali</h4>
+          </a>
+        </div>
+        <div class="hotel4 hover">
+          <a href = "#onyx">
+            <img src="./images/balihotel/hotel4.jpg" class="small-centre-img">
+            <h4>Wapa Di Ume Resort & Spa, Ubud</h4>
+          </a>
+        </div>
+        <div class="hotel5 hover">
+          <a href = "#sivory">
+            <img src="./images/balihotel/hotel5.jpg" class="small-centre-img">
+            <h4>Bali Mandira Beach Resort & Spa</h4>
+          </a>
+        </div>
+        <div class="hotel6 hover">
+          <a href = "#secretscc">
+            <img src="./images/balihotel/hotel6.jpg" class="small-centre-img">
+            <h4>The Pavilions Bali</h4>
+          </a>
+        </div>
+        <div class="hotel7 hover ">
+          <a href = "#Eden">
+            <img src="./images/balihotel/hotel7.jpg" class="small-centre-img">
+          <h4>Puri Mas Boutique Resort & Spa</h4>
+        </a>
+        </div>
+      </section>
+      <br><br>
+      <br><br>
+      <hr>
+      <section class="hotelsgrid">
+        <br><br>
+        <div class="hoteldisplay" id="hardrock">
+          <div class="titlespeil">
+          <h3>The Laguna Resort & Spa</h3>
+            <p>
+              Nestled among the majestic Nusa Dua peninsula on Bali’s most beautiful beach,
+              The Laguna Resort & Spa is a spectacular resort shrouded in beautiful flora
+              and offering a relaxing, tranquil ambience. With lagoon-style pools,
+              first-class service and delicious restaurants, this is a wonderful paradise.
+            </p>
+            <p>
+              Covered in bright tropical flora, soaring palm trees and lush lagoons, the resort
+              will feel like your own little paradise as you relax by the seven gorgeous lagoons
+              and pools, enjoy a few cool water sports, and treat yourself to a soothing therapy
+              at the lagoon spa.
+            </p>
+        </div>
+          <img src="./images/balihotel/hotel1.jpg" class="medium-centre-img">
+          
+        </div>
+        <div class="hoteldisplay" id="breathless">
+          <div class="titlespeil">
+            <h3>Nusa Dua Beach Hotel and Spa</h3>
+            <p>
+              With the elegance and sophistication of a Balinese palace, but the modernity
+              and convenience of a luxurious holiday, Nusa Dua Beach Hotel is perfect for
+              those hoping for a stylish getaway. Nestled on the sun-kissed sands of Nusa Dua,
+              the hotel oozes seclusion and tranquility.
+            </p>
+            <p>
+              Located on the beautiful silky sands of Nusa Dua, Nusa Dua Beach Hotel & Spa provides
+              an oasis of space and tranquility in the heart of exotic Bali.
+            </p>
+          </div>
+          <img src="./images/balihotel/hotel2.jpg" class="medium-centre-img">
+        </div>
+        <div class="hoteldisplay" id="secretsrb">
+          <div class="titlespeil">
+            <h3>Melia Bali</h3>
+            <p>
+              Located on the shores of Nusa Dua, this beachfront resort is a unique sanctuary
+              of exotic beauty and comfort for those who seek a dream holiday.
+              Featuring a large lagoon style swimming pool winding through the hotel gardens,
+              5 restaurants and 3 bars in a gorgeous tropical garden setting.
+              Upgrade to The Level for access to the private lounge, exclusive beach and pool
+              area and other extras included.
+            </p>
+            <p>
+              Featuring a large lagoon style swimming pool winding through the hotel gardens,
+              5 restaurants and 3 bars in a gorgeous tropical garden setting.
+            </p>
+          </div>
+        
+          <img src="./images/balihotel/hotel3.jpg" class="medium-centre-img">
+        </div>
+        <div class="hoteldisplay" id="onyx">
+          <div class="titlespeil">
+          <h3>Wapa Di Ume Resort & Spa, Ubud</h3>
+          <p>
+            Wapa Di Ume is a luxury Balinese resort nestled amidst picturesque rice fields
+            and lush tropical gardens, offering a haven of peace and tranquillity whilst
+            being located just 5 minutes away from the cultural and artistic centre of Ubud.
+          </p>
+          <p>
+            The accommodation consists of sixteen stand-alone properties scattered along the
+            gentle hillside, flanked by verdant flora and serene rice fields for a complete
+            feeling of privacy and seclusion.
+          </p>
+        </div>
+          <img src="./images/balihotel/hotel4.jpg" class="medium-centre-img">
+        </div>
+        <div class="hoteldisplay" id="sivory">
+          <div class="titlespeil">
+          <h3>Bali Mandira Beach Resort & Spa</h3>
+          <p>
+            Located along the stunning stretch of Legian Kuta beach, this modern resort is
+            a tropical oasis, providing gorgeous amenities and a tranquil ambience.
+            Relax and unwind in comfortable accommodation, whilst overlooking panoramic views
+            of the glistening ocean and enjoying what Bali has to offer.
+          </p>
+          <p>
+            This lovely Balinese-themed resort enjoys a wonderful location and excellent facilities
+             – ideal for a fun yet relaxed holiday in the sun if you’re looking for a romantic time with your partner. 
+          </p>
+        </div>
+          <img src="./images/balihotel/hotel5.jpg" class="medium-centre-img">
+        </div>
+        <div class="hoteldisplay" id="secretscc">
+          <div class="titlespeil">
+          <h3>The Pavilions Bali</h3>
+          <p>
+            A delightful hideaway that is perfect for couples and honeymooners.
+            Lying in a tranquil location, yet just a short stroll away from the shops 
+            and resturants of Sanur beach, this 25 villa luxury boutique style is the place
+            to relax and unwind.
+          </p > 
+          <p>
+            The quiet charms of Sanur offer a peaceful and romantic hideaway on the idyllic island of Bali.
+            The Pavilions Bali, located on the Eastern shoreline, is only a stroll away from a stunning lagoon,
+            with an astonishing collection of villas designed to reflect traditional Balinese compound
+            architecture.
+          </p>
+        </div>
+          <img   src="./images/balihotel/hotel6.jpg" class="medium-centre-img">
+          
+        </div>
+        <div class="hoteldisplay" id="Eden" >
+          <div class="titlespeil">
+          <h3>Puri Mas Boutique Resort & Spa</h3>
+          <p>
+            Located on the beach, close to Sengiggi on the north coast of Lombok,
+            you will find this romantic adult only boutique hotel. With an infinity
+            pool overlooking the ocean and a spa located among the tropical gardens,
+            you will feel truly at peace.
+          </p> 
+          <p>
+            Formerly a family residence and lovingly developed into a boutique hotel,
+            dotted with arts and crafts and Indonesian antiquities, this adults only
+            (12 years and above) gem of a hotel offers an infinity pool right by the
+            beach with a cocktail pool bar to celebrate the sunset and lively evening
+            entertainment in the restaurant.
+          </p>
+          </div>
+          <img src="./images/balihotel/hotel7.jpg" class="medium-centre-img"> 
+        </div>
+      </section>
+    </main>
       <footer>
         <p>Spider-Web Design 2020</p>
       </footer>   

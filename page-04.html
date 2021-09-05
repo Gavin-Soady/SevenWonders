@@ -2,9 +2,11 @@
   <head>
     <link rel="stylesheet" href="css/home.css">
     <title>Home Page</title>
-    <style>
-                  
-  </style>
+    <script>
+      var shiftWindow = function() { scrollBy(0, -120) };
+        if (location.hash) shiftWindow();
+        window.addEventListener("hashchange", shiftWindow);  
+    </script>
   </head>
   <body>
     <div class="container">
@@ -32,52 +34,202 @@
         </h1>
       </div>
     </div>
-      <div id="maincontent">
-        <div id="primary">
+    <main id="maindom">
+      <section class="introgrid">
+        <div id="intro1">
           <p>
-            Sed sed purus eu erat ullamcorper sollicitudin scelerisque aliquet
-            metus. Vestibulum sit amet leo at lectus venenatis malesuada.
-            Vivamus sollicitudin purus sit amet urna pulvinar venenatis. Nullam
-            sed scelerisque augue. Integer ipsum ante, dictum quis sollicitudin
-            non, euismod tristique eros.
-          </p>
-
-          <p>
-            <img src="./images/placeholder.png" class="medium-left-img">
-            Proin malesuada tincidunt auctor. Maecenas dapibus congue justo,
-            volutpat molestie lorem mattis eget. Nullam finibus turpis et
-            commodo hendrerit
-          </p>
-          <p>
-            Donec fringilla tortor non nibh sollicitudin suscipit. Sed vitae arcu consectetur, laoreet eros non, porta
-            ex. Nunc volutpat arcu non purus mattis, vel accumsan velit consectetur. Morbi sit amet leo mauris. Aliquam
-            non odio et urna commodo fermentum. Duis fermentum enim ac quam cursus, sit amet convallis turpis porta.
-            Cras consequat, lectus vel facilisis ullamcorper, justo risus malesuada nisl, pretium congue ex odio id
-            enim.
-          </p>
-          <p>
-            Nullam molestie lectus elit, eu euismod neque egestas vel. Nam a
-            ipsum urna. Donec sit amet pulvinar mi.
+            A sun-blushed archipelago of 115 paradise islands, the Seychelles is found to the east of
+            he African coast and north of Madagascar. You’ll come for the beaches, but you’ll stay for… 
+            the beaches – they really are perfect. Seychelles holidays capture the essence of a classic 
+            luxury beach escape, with a warm welcome, rich culture and awe-inspiring vistas at every turn.
+            <br><br>
+            You’ll likely spend most of your time at one of the resorts, meaning that your interaction with
+            locals will be limited. But if you do get the chance to meet them, they are an exceptionally
+            friendly people, mellowed by years of living in this divine place.
+            <br><br>
+            Take in the views from the perfect powder-soft beaches; the Seychelles is virtually a byword for beachside perfection
+            Scuba dive with a huge variety of sea-life and enjoy the wonderfully clear water
+            Enjoy the utter seclusion of the upmarket resorts
+            The Seychelles boasts year-round perfect weather – there’s never a bad time to escape here
+            There is a great range of watersports to keep you entertained
           </p>
         </div>
-        <div id="secondary">
+        <section class="selectiongridseycelles">
+          <div class="hotel1 hover">
+            <a href = "#hardrock">
+              <img src="./images/seychelleshotel/hotel1.jpg" class="small-centre-img">
+              <h4>Hilton Northolme Resort & Spa</h4>
+            </a>
+          </div>
+          <div class="hotel2 hover">
+            <a href = "#breathless">
+              <img src="./images/seychelleshotel/hotel2.jpg" class="small-centre-img">
+              <h4>Hilton Labriz Resort & Spa</h4>
+            </a>
+          </div>
+          <div class="hotel3 hover">
+            <a href = "#secretsrb">
+              <img src="./images/seychelleshotel/hotel3.jpg" class="small-centre-img">
+              <h4>DoubleTree Resort & Spa</h4>
+            </a>
+          </div>
+          <div class="hotel4 hover">
+            <a href = "#onyx">
+              <img src="./images/seychelleshotel/hotel4.jpg" class="small-centre-img">
+              <h4>Raffles Seychelles</h4>
+            </a>
+          </div>
+          <div class="hotel5 hover">
+            <a href = "#sivory">
+              <img src="./images/seychelleshotel/hotel5.jpg" class="small-centre-img">
+              <h4>Banyan Tree</h4>
+            </a>
+          </div>
+          <div class="hotel6 hover">
+            <a href = "#secretscc">
+              <img src="./images/seychelleshotel/hotel6.jpg" class="small-centre-img">
+              <h4>JA Enchanted Island Resort</h4>
+            </a>
+          </div>
+          <div class="hotel7 hover ">
+            <a href = "#Eden">
+              <img src="./images/seychelleshotel/hotel7.jpg" class="small-centre-img">
+            <h4>Constance Ephélia</h4>
+          </a>
+          </div>
+        </section>
+        <div id="intro2">
+          <h2>Location</h2>
+            <p>
+              Seychelles is an archipelago located in the Indian Ocean which, between 480 and 1,600 km
+              from the east coast of Africa. Despite this distance from the continent's mainland,
+              the nation is, politically, part of Africa. The Seychelles consists of 115 islands,
+              of which 42 are designated as granite or granitic islands, and 73 as coral islands.
+              These islands are then sub-divided into the so-called Inner Islands and the Outer Islands.
+              The Seychelles is also divided into 25 separate administrative regions, all of which are
+              located on the Inner Islands. These islands are mostly made up of granite,
+              but also include the Northern Coral Islands, while the Outer Islands consist
+              of the Southern Coral Islands, the Amirantes, the Alphonse Group, the Farquhar Group,
+              and the Aldabra Group.
+            </p>
+          </div>
+      </section>
+      <section class="hotelsgridseychelles">
+        <div class="hoteldisplay" id="hardrock">
+          <div class="titlespeil">
+          <h3>The Hilton Seychelles Northolme Resort & Spa</h3>
+            <p>
+              Hilton Northolme Resort & Spa's luxurious villas are nestled along small beach coves
+              and into the luscious hillside, offering spectacular views over the Indian Ocean and
+              a unique place to discover the Seychelles' natural beauty.
+              <br><br>
+              A slightly older resort than others in the Seychelles, the villas are designed in
+              traditional, Seychelles architecture - a blend of colonial and contemporary decor
+              with typical high ceilings, dark woods, sloping ceiling windows, airy balconies
+              and glass panel French doors. 
+            </p>
+        </div>
+          <img src="./images/seychelleshotel/hotel1.jpg" class="medium-centre-img">
+        </div>
+        <div class="hoteldisplay" id="breathless">
+          <div class="titlespeil">
+            <h3>Hilton Seychelles Labriz Resort & Spa</h3>
+            <p>
+              Based a little way from the tiny village of La Passe, there is an intimate and private
+              feel to the resort, and its setting within a marine national park makes it a haven
+              for wildlife lovers. Giant tortoises lay their eggs on the beach and there are also
+              opportunities for incredible bird watching, plus diving and snorkelling excursions
+              in the crystal blue waters.
+              <br><br>
+              Walk across the lake located in the middle of the resort and you may even spot
+              Simone’s House – a tiny beach hut that’s home to a white crab. Or, for something
+              even more relaxing, how about swaying in a beach hammock as you nap in the sun?
+            </p>
+          </div>
+          <img src="./images/seychelleshotel/hotel2.jpg" class="medium-centre-img">
+        </div>
+        <div class="hoteldisplay" id="secretsrb">
+          <div class="titlespeil">
+            <h3>DoubleTree by Hilton Seychelles Allamanda Resort & Spa</h3>
+            <p>
+              Perched on a lovely private beach at Anse Forbans, DoubleTree by Hilton Seychelles
+              Allamanda Resort & Spa is a charming yet modern hotel. Boasting a prime romantic
+              location that’s perfect for couples and honeymooners, you’ll find a quiet and
+              relaxed atmosphere here.
+              <br><br>
+              Completely refurbished in 2013, every guest room offers stunning ocean views as well
+              as complimentary Wi-Fi to help you keep in contact with everyone back home.
+              The resort also has fantastic facilities to enjoy including an infinity pool and
+              the Duniye Spa which offers rejuvenating treatments.
+            </p>
+          </div>
+          <img src="./images/seychelleshotel/hotel3.jpg" class="medium-centre-img">
+        </div>
+        <div class="hoteldisplay" id="onyx">
+          <div class="titlespeil">
+          <h3>Raffles Seychelles</h3>
           <p>
-            <img src="./images/placeholder.png" class="small-left-img">
-            Curabitur elit erat, sollicitudin pellentesque tincidunt eu, blandit
-            a nisi. Etiam sit amet egestas nisl. Pellentesque vehicula velit
-            mollis, luctus lorem quis, ultrices justo.
-          </p>
-          <p>
-            <img src="./images/placeholder.png" class="small-left-img">
-            Vivamus posuere metus urna
-          </p>
-          <p>
-            <img src="./images/placeholder.png" class="small-right-img">
-            Class aptent taciti sociosqu ad litora torquent per conubia nostra,
-            per inceptos himenaeos.
+            One of the Seychelles’ finest and most luxurious resorts, Raffles Praslin raises the bar
+            with exceptional accommodation, impeccable levels of service and an idyllic beachfront 
+            and hillside location – this is your dream tropical holiday brought to life.
+            <br><br>
+            Sitting on the north-eastern coast of Praslin, the resort is flanked by lush greenery,
+            stunning white sand and the calm turquoise of the Indian Ocean. This truly romantic
+            etting makes Raffles a fine choice for a honeymoon and very popular with couples
+            looking for a secluded escape.
           </p>
         </div>
-      </div>
+          <img src="./images/seychelleshotel/hotel4.jpg" class="medium-centre-img">
+        </div>
+        <div class="hoteldisplay" id="sivory">
+          <div class="titlespeil">
+          <h3>Banyan Tree, Seychelles</h3>
+          <p>
+            Situated in the scenic Intendance Bay along the south coastline of Mahe,
+            the luxurious Banyan Tree commands a majestic view of the Indian Ocean.
+            It boasts luxuriously furnished villas, all nestled into the hilly lush terrain.
+            <br><br>
+            With every villa having its own private swimming pool and terraced seating area,
+            you could not want a more romantic hideaway to enjoy the delights of the Seychelles.
+            Dining is an exquisite experience with a choice of intimate fine dining and a chance
+            to mingle with the other guests.
+          </p>
+        </div>
+          <img src="./images/seychelleshotel/hotel5.jpg" class="medium-centre-img">
+        </div>
+        <div class="hoteldisplay" id="secretscc">
+          <div class="titlespeil">
+          <h3>JA Enchanted Island Resort</h3>
+          <p>
+            Enchanted Island Resort, a boutique private island resort, is set amongst the natural beauty
+            of the Seychelles and is close to Moyenne Island which is known for its beaches and underwater
+            wildlife. Enveloped by tropical flora, this resort caters to indulgent getaways infused with
+            an exotic ambience.
+            <br><br>
+            Each of the ten secluded villas boast simple, rustic furnishings,
+            as well as its own small infinity pool and direct access to the beach, providing complete
+            privacy and idyllic views.
+          </p > 
+        </div>
+          <img   src="./images/seychelleshotel/hotel6.jpg" class="medium-centre-img">
+        </div>
+        <div class="hoteldisplay" id="Eden" >
+          <div class="titlespeil">
+          <h3>Constance Ephélia, Seychelles</h3>
+          <p>
+            The sprawling Constance Ephélia offers a brilliant, tropical hideaway for families and couples
+            – its 120 hectares of land is home to a multitude of gorgeous suites and villas, a tranquil spa,
+            a plethora of adrenaline-inducing activities, and four lovely swimming pools.
+            <br><br>
+            Set in the verdant, exotic flora of northwest Mahé, Constance Ephélia has a breath-taking backdrop
+            of rainforest-clad mountains. The resort is bordered by two stunning beaches, whilst a luscious
+            mangrove forest separates the north of the resort from the south. 
+          </p> 
+          </div>
+          <img src="./images/seychelleshotel/hotel7.jpg" class="medium-centre-img"> 
+        </div>
+      </section>
+    </main>
       <footer>
         <p>Spider-Web Design 2020</p>
       </footer>   

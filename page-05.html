@@ -2,9 +2,11 @@
   <head>
     <link rel="stylesheet" href="css/home.css">
     <title>Home Page</title>
-    <style>
-      
-  </style>
+    <script>
+      var shiftWindow = function() { scrollBy(0, -120) };
+        if (location.hash) shiftWindow();
+        window.addEventListener("hashchange", shiftWindow);  
+    </script>
   </head>
   <body>
     <div class="container">
@@ -31,52 +33,170 @@
         </h1>
       </div>
     </div>
-      <div id="maincontent">
-        <div id="coverImage"></div>
-        <div id="primary">
+    <main id="mainmaur">
+      <section class="introgrid">
+        <div id="intro1">
           <p>
-            Sed sed purus eu erat ullamcorper sollicitudin scelerisque aliquet
-            metus. Vestibulum sit amet leo at lectus venenatis malesuada.
-            Vivamus sollicitudin purus sit amet urna pulvinar venenatis. Nullam
-            sed scelerisque augue. Integer ipsum ante, dictum quis sollicitudin
-            non, euismod tristique eros.
-          </p>
-
-          <p>
-            <img src="./images/placeholder.png" class="medium-left-img">
-            Proin malesuada tincidunt auctor. Maecenas dapibus congue justo,
-            volutpat molestie lorem mattis eget. Nullam finibus turpis et
-            commodo hendrerit
-          </p>
-          <p>
-            Donec fringilla tortor non nibh sollicitudin suscipit. Sed vitae arcu consectetur, laoreet eros non, porta
-            ex. Nunc volutpat arcu non purus mattis, vel accumsan velit consectetur. Morbi sit amet leo mauris. Aliquam
-            non odio et urna commodo fermentum. Duis fermentum enim ac quam cursus, sit amet convallis turpis porta.
-            Cras consequat, lectus vel facilisis ullamcorper, justo risus malesuada nisl, pretium congue ex odio id
-            enim.
-          </p>
-          <p>
-            Nullam molestie lectus elit, eu euismod neque egestas vel. Nam a
-            ipsum urna. Donec sit amet pulvinar mi.
+            Your jaw will drop as soon as you see Bora Bora. The soaring Mt Otemanu – a dormant 727m volcano
+             – rises up majestically in the centre of the island, whilst the sugary sand beaches are framed
+            by translucent lagoons and glorious coral reefs. It’s a landscape that inspires you to be as
+            active or as laidback as you like. The powdery sands beckon you to unwind, whilst the
+            ocean blue entices you to snorkel, paddle board, fish or jet ski. You could even feeds
+            rays and sharks for that extra special memory. Inland, you’ll find wonderful hiking
+            opportunities on Mount Pahia and Mount Otemanu.
+``          <br><br>
+            Another enticement is the collection of romantic resorts that reside on their own tiny
+            ‘motu’ (island). Luxurious and secluded, you’ll feel like the only people on earth as
+            you sit back and relax in your own private oasis. The most opulent of all are the
+            overwater bungalows – jutting over the crystal-clear lagoons, most boast glass
+            flooring so you can marvel at the colourful marine life swimming beneath your feet.
           </p>
         </div>
-        <div id="secondary">
+        <div id="intro2">
+          <h2>Location</h2>
           <p>
-            <img src="./images/placeholder.png" class="small-left-img">
-            Curabitur elit erat, sollicitudin pellentesque tincidunt eu, blandit
-            a nisi. Etiam sit amet egestas nisl. Pellentesque vehicula velit
-            mollis, luctus lorem quis, ultrices justo.
-          </p>
-          <p>
-            <img src="./images/placeholder.png" class="small-left-img">
-            Vivamus posuere metus urna
-          </p>
-          <p>
-            <img src="./images/placeholder.png" class="small-right-img">
-            Class aptent taciti sociosqu ad litora torquent per conubia nostra,
-            per inceptos himenaeos.
+            Bora Bora may feel worlds away, but this South Seas splendor is well within reach.
+            Where is Bora Bora, exactly? The island lies just northwest of Tahiti, less than an
+            hour away by plane from Papeete. The airport is located on a small, separate part
+            of the island known as Motu Mete. Upon arrival, you will be greeted with a warm smile
+            and fragrant flower lei and transferred by boat to your Bora Bora resort, meaning you
+            hardly have to wait for your first encounter with the island's famously translucent
+            lagoon.
           </p>
         </div>
+      </section>
+      <hr>
+        <section id="mauritiushands">
+        <section class="hotelsgridmauritius">
+          <div class="hoteldisplay" id="hardrock">
+            <div class="titlespeil">
+            <h3>Four Seasons Resort Bora Bora</h3>
+              <p>
+                Secluded and sophisticated, the Four Seasons Resort Bora Bora is an idyllic
+                retreat located in the shadow of Bora Bora's Mount Otemanu. It is on a private
+                motu (island) making it all the more exclusive and luxurious.
+              </p>
+          </div>
+            <img src="./images/boraborahotel/hotel1.jpg" class="medium-centre-img">
+            
+          </div>
+          <div class="hoteldisplay" id="breathless">
+            <div class="titlespeil">
+              <h3>Intercontinental Bora Bora Resort Thalasso Spa</h3>
+              <p>
+                One of the most blissful beachfront resorts on its own exclusive island - Motu Piti Aau.
+                Offering spectacular overwater villas with stunning views, InterContinental Bora Bora
+                is a gorgeous oasis that's perfect for a remote honeymoon.
+              </p>
+            </div>
+            <img src="./images/boraborahotel/hotel2.jpg" class="medium-centre-img">
+          </div>
+          <div class="hoteldisplay" id="secretsrb">
+            <div class="titlespeil">
+              <h3>St Regis Bora Bora Resort</h3>
+              <p>
+                The St. Regis Bora Bora Resort is another gem that stands out as one of the jewels on the
+                crown on Bora Bora. This is a resort for the discerning traveller who is seeking the
+                ultimate luxury hideaway.
+              </p>
+            </div>
+            <img src="./images/boraborahotel/hotel3.jpg" class="medium-centre-img">
+          </div>
+          <div class="hoteldisplay" id="onyx">
+            <div class="titlespeil">
+            <h3>Bora Bora Pearl Beach Resort & Spa</h3>
+            <p>
+              Located on Motu Tevairoa, a stunning coral islet situated between the azure ocean
+              and crystalline lagoon, Bora Bora Pearl Beach is a blissful hideaway which boasts
+              a sublime setting and views of the majestic Mount Otemanu.
+            </p>
+          </div>
+            <img src="./images/boraborahotel/hotel4.jpg" class="medium-centre-img">
+          </div>
+          <div class="hoteldisplay" id="sivory">
+            <div class="titlespeil">
+            <h3>Sofitel Bora Bora</h3>
+            <p>
+              Sofitel Bora Bora Private Island is situated on Bora Bora, and provides 5-star facilities,
+              including a private beach. The various facilities this luxury hotel features include a
+              free shuttle service, a sun deck and an outdoor pool.
+          </div>
+            <img src="./images/boraborahotel/hotel5.jpg" class="medium-centre-img">
+          </div>
+          <div class="hoteldisplay" id="secretscc">
+            <div class="titlespeil">
+            <h3>Eden Beech</h3>
+            <p>
+              Renovated in 2010, the Eden Beach Hotel Bora Bora guarantees guests a pleasant stay whether
+              in Bora Bora Island for business or pleasure. The hotel lies 15 km from the city center
+              and provides accessibility to important town facilities.
+            </p > 
+          </div>
+            <img   src="./images/boraborahotel/hotel6.jpg" class="medium-centre-img">
+            
+          </div>
+          <div class="hoteldisplay" id="Eden" >
+            <div class="titlespeil">
+            <h3>Le Meridien Hotel - Bora Bora</h3>
+            <p>
+              Setting the luxury benchmark for the Dominican Republic higher than ever before,
+              this boutique resort is located in Cap Cana - the sparkling 30,000-acre gated
+              community on the island’s eastern tip. Fashioned after a chic European village
+              and a colonial-style wine cellar that famously houses some of the best wine on the island.
+            </p> 
+            </div>
+            <img src="./images/boraborahotel/hotel7.jpg" class="medium-centre-img"> 
+          </div>
+        </section>
+        <section class="selectiongridmauritius">
+          <div class="hotelm1">
+            <a href = "#hardrock">
+              <img src="./images/boraborahotel/hotel1.jpg" class="small-centre-img">
+              <h4>Four Seasons Resort Bora Bora</h4>
+            </a>
+          </div>
+          <div class="hotelm1">
+            <a href = "#breathless">
+              <img src="./images/boraborahotel/hotel2.jpg" class="small-centre-img">
+              <h4>Intercontinental Resort Thalasso Spa</h4>
+            </a>
+          </div>
+          <div class="hotelm1">
+            <a href = "#secretsrb">
+              <img src="./images/boraborahotel/hotel3.jpg" class="small-centre-img">
+              <h4>St Regis Bora Bora Resort</h4>
+            </a>
+          </div>
+          <div class="hotelm1">
+            <a href = "#onyx">
+              <img src="./images/boraborahotel/hotel4.jpg" class="small-centre-img">
+              <h4>Pearl Beach Resort & Spa</h4>
+            </a>
+          </div>
+          <div class="hotelm1">
+            <a href = "#sivory">
+              <img src="./images/boraborahotel/hotel5.jpg" class="small-centre-img">
+              <h4>Sofiitel Bora Bora</h4>
+            </a>
+          </div>
+          <div class="hotelm1">
+            <a href = "#secretscc">
+              <img src="./images/boraborahotel/hotel6.jpg" class="small-centre-img">
+              <h4>Eden Beach</h4>
+            </a>
+          </div>
+          <div class="hotelm1">
+            <a href = "#Eden">
+              <img src="./images/boraborahotel/hotel7.jpg" class="small-centre-img">
+            <h4>Le Meridien Hotel - Bora Bora</h4>
+          </a>
+          </div>
+          <div class="scrollfill">
+            
+          </div>
+        </section>
+      </section>
+    </main>
       </div>
       <footer>
         <p>Spider-Web Design 2020</p>

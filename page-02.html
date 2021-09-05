@@ -3,10 +3,14 @@
     <link rel="stylesheet" href="css/home.css">
     <title>Home Page</title>
     <style>
-      
-  </style>
+    </style>
+    <script>
+      var shiftWindow = function() { scrollBy(0, -120) };
+        if (location.hash) shiftWindow();
+        window.addEventListener("hashchange", shiftWindow);  
+    </script>
   </head>
-  <body>
+  <body id="maurbody">
     <div class="container">
       <div class="coverimage" id="covermauritius">
         <div id= "navholdermauritius" class="navholder">
@@ -32,53 +36,171 @@
         </h1>
       </div>
     </div>
-      <div id="maincontent">
-        <div id="primary">
-          <img src="./images/placeholder.png" class="large-centre-img">
+    <main id="mainmaur">
+      <section class="introgrid">
+        <div id="intro1">
           <p>
-            Nunc nec malesuada metus, non ullamcorper risus. Phasellus
-            vestibulum urna ac metus scelerisque, in vulputate sapien aliquet.
-            Vestibulum volutpat, neque a finibus bibendum, mauris tellus semper
-            tortor, nec facilisis velit odio vel risus. Donec ullamcorper
-            iaculis ex ut condimentum.
-          </p>
-          <p>
-            Vestibulum ut enim a libero euismod iaculis. Fusce ullamcorper neque
-            odio, eu interdum arcu imperdiet ut.
-          </p>
-          <p>
-            Nulla facilisi. Proin a nulla fringilla, sodales sem non, dictum
-            eros. Donec ac elit congue, blandit leo et, vulputate massa. Donec
-            aliquet dolor non urna accumsan, a fermentum risus scelerisque.
-            Nullam auctor dictum iaculis
-          </p>
-          <img src="./images/placeholder.png" class="large-centre-img">
-          <p>
-            Fusce cursus porttitor semper. Sed non diam a ex vestibulum tincidunt. Integer quis nulla arcu. Aenean
-            luctus arcu non ex congue venenatis. Donec ut massa eget turpis lacinia dapibus vitae sed augue. Lorem ipsum
-            dolor sit amet, consectetur adipiscing elit. Donec mattis vel est at iaculis. Phasellus iaculis orci orci,
-            quis euismod est tincidunt id. Cras scelerisque libero tristique accumsan interdum. Mauris quis quam vel
-            justo dictum pellentesque nec at tellus
+            Weddings and honeymoons in Mauritius are becoming increasingly popular thanks to the wealth of luxury
+            resorts on the exclusive but accessible island,its multicultural and celebratory spirit, as well as its strikingly beautiful volcanic skylines.
+            <br><br>
+            However, if you’re a couple looking for secluded intimacy, Mauritius will not disappoint.
+            Many of the resorts that Tropical Sky serves on the island only host one wedding per day,
+            meaning that your dream ceremony need not be shared with anyone else.
+            <br><br>
+            The climate is maritime subtropical, with fairly uniform temperature throughout the year.
+            Mean temperatures vary from the mid-70s F (low to mid-20s C) at sea level to the upper 60s F
+            (upper 10s C) on the high plateau. Two seasons are recognized: hot (December to April)
+            and cool (June to September). Annual rainfall varies from around 35 inches (900 mm)
+            on the west coast to 60 inches (1,525 mm) on the southeast coast and about 200 inches
+            (5,080 mm) on the central plateau.          
           </p>
         </div>
-        <div id="secondary">
-          <p>
-            <img src="./images/placeholder.png" class="small-centre-img">
-            Nunc fringilla tempor tellus non laoreet. Nunc leo augue, fringilla
-            id urna at, pulvinar posuere augue. Donec lacinia et purus in
-            fringilla.
-          </p>
-          <p>
-            Ut tempor diam lorem.
-          </p>
-          <p>
-            <img src="./images/placeholder.png" class="small-centre-img">
-            Nullam dignissim aliquam dui. Proin laoreet, elit sed pulvinar
-            sollicitudin, urna arcu fermentum felis, in rhoncus nunc neque vitae
-            libero.
-          </p>
+        <div id="intro2">
+          <h2>Location</h2>
+          Mauritius lies about 500 miles (800 km) east of Madagascar in the Indian Ocean.
+          Its outlying territories are Rodrigues Island, situated about 340 miles (550 km) eastward,
+          the Cargados Carajos Shoals, 250 miles (400 km) northeastward, and the Agalega Islands,
+          580 miles (930 km) northward from the main island. Mauritius also claims sovereignty over
+          the Chagos Archipelago (including Diego Garcia), some 1,250 miles (2,000 km) to the northeast,
+          although this claim is disputed by Britain.
         </div>
-      </div>
+      </section>
+      <br><br>
+      <hr>
+        <section id="mauritiushands">
+        <section class="hotelsgridmauritius">
+          <div class="hoteldisplay" id="hardrock">
+            <div class="titlespeil">
+            <h3>Zilwa Attitude</h3>
+              <p>
+                Zilwa Attitude is a fantastic, sophisticated resort suited for both families and couples.
+                It is located on the beautiful north coast of Mauritius located within easy reach of
+                Grand Bay. Zilwa Attitude offers breathtaking views of the five islands off the northern
+                coast.
+              </p>
+          </div>
+            <img src="./images/maurhotel/hotel1.jpg" class="medium-centre-img">
+            
+          </div>
+          <div class="hoteldisplay" id="breathless">
+            <div class="titlespeil">
+              <h3>Veranda Pointe Aux Biches</h3>
+              <p>
+                Barefoot luxury at its best, this boutique tropical retreat is perfect for family holidays
+                where ultimate relaxation is the order of the day. Indulge in the laid back pace as you
+                admire the beautiful, unspoiled views of Mauritius, with plenty for the whole family to enjoy.
+              </p>
+            </div>
+            <img src="./images/maurhotel/hotel2.jpg" class="medium-centre-img">
+          </div>
+          <div class="hoteldisplay" id="secretsrb">
+            <div class="titlespeil">
+              <h3>The Ravenala Attitude</h3>
+              <p>
+                This stunning all-inclusive resort on the north-west of Mauritius offers a plethora of restaurants,
+                bars and facilities to suit all tastes and ages. Set in extensive gardens between the ocean and
+                river, this is a lovely spot to enjoy a Mauritian holiday and its stunning surroundings.
+                Get ready to relax in style.
+              </p>
+            </div>
+          
+            <img src="./images/maurhotel/hotel3.jpg" class="medium-centre-img">
+          </div>
+          <div class="hoteldisplay" id="onyx">
+            <div class="titlespeil">
+            <h3>Shangri-La's Le Touessrok Resort & Spa</h3>
+            <p>
+              The recently renovated Shangri-La's Le Touessrok Resort & Spa is a truly special resort located
+              on a beautiful stretch of sandy coast, looking out over tranquil Trou d’Eau Douce Bay and
+              offering incredible first class facilities.
+            </p>
+          </div>
+            <img src="./images/maurhotel/hotel4.jpg" class="medium-centre-img">
+          </div>
+          <div class="hoteldisplay" id="sivory">
+            <div class="titlespeil">
+            <h3>Heritage Awali Golf & Spa Resort</h3>
+            <p>
+              Set amongst the luscious Mauritian landscape on the Domaine de Bel Ombre this is a spectacular
+              resort. With crystalline lagoons framed by tropical flora, kids club, three swimming pools and
+              an extensive selection of sports to chose from, this is an ideal choice for those seeking a fun
+              filled Mauritian experience.
+          </div>
+            <img src="./images/maurhotel/hotel5.jpg" class="medium-centre-img">
+          </div>
+          <div class="hoteldisplay" id="secretscc">
+            <div class="titlespeil">
+            <h3>Heritage Le Telfair</h3>
+            <p>
+              A luxury hotel nestled at the heart of the Domaine de Bel Ombre on the unspoiled south coast.
+              A member of the Small Luxury Hotels of the World the resort offers sublime restaurants,
+              extensive accommodation, watersports and free golf.
+            </p > 
+          </div>
+            <img   src="./images/maurhotel/hotel6.jpg" class="medium-centre-img">
+            
+          </div>
+          <div class="hoteldisplay" id="Eden" >
+            <div class="titlespeil">
+            <h3>Veranda Paul and Virginie</h3>
+            <p>
+              A secluded property with sensational views that will make you feel like you've stepped
+              into an exotic paradise - a truly stunning hotel. This is the perfect intimate hideaway
+              for a romantic holiday for two
+            </p> 
+            </div>
+            <img src="./images/maurhotel/hotel7.jpg" class="medium-centre-img"> 
+          </div>
+        </section>
+        <section class="selectiongridmauritius">
+          <div class="hotelm1">
+            <a href = "#hardrock">
+              <img src="./images/maurhotel/hotel1.jpg" class="small-centre-img">
+              <h4>Zilwa Attitude</h4>
+            </a>
+          </div>
+          <div class="hotelm1">
+            <a href = "#breathless">
+              <img src="./images/maurhotel/hotel2.jpg" class="small-centre-img">
+              <h4>Veranda Pointe Aux Biches</h4>
+            </a>
+          </div>
+          <div class="hotelm1">
+            <a href = "#secretsrb">
+              <img src="./images/maurhotel/hotel3.jpg" class="small-centre-img">
+              <h4>The Ravenala Attitude</h4>
+            </a>
+          </div>
+          <div class="hotelm1">
+            <a href = "#onyx">
+              <img src="./images/maurhotel/hotel4.jpg" class="small-centre-img">
+              <h4>Shangri-La's Le Touessrok Resort & Spa</h4>
+            </a>
+          </div>
+          <div class="hotelm1">
+            <a href = "#sivory">
+              <img src="./images/maurhotel/hotel5.jpg" class="small-centre-img">
+              <h4>Heritage Awali Golf & Spa Resort</h4>
+            </a>
+          </div>
+          <div class="hotelm1">
+            <a href = "#secretscc">
+              <img src="./images/maurhotel/hotel6.jpg" class="small-centre-img">
+              <h4>Heritage Le Telfair</h4>
+            </a>
+          </div>
+          <div class="hotelm1">
+            <a href = "#Eden">
+              <img src="./images/maurhotel/hotel7.jpg" class="small-centre-img">
+            <h4>Veranda Paul and Virginie</h4>
+          </a>
+          </div>
+          <div class="scrollfill">
+            
+          </div>
+        </section>
+      </section>
+    </main>
       <footer>
         <p>Spider-Web Design 2020</p>
       </footer>   

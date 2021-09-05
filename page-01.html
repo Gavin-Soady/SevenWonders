@@ -5,7 +5,7 @@
     <style>
   </style>
   <script>
-    var shiftWindow = function() { scrollBy(0, -75) };
+    var shiftWindow = function() { scrollBy(0, -110) };
       if (location.hash) shiftWindow();
       window.addEventListener("hashchange", shiftWindow);
   </script>
@@ -36,101 +36,161 @@
         </h1>
       </div>
     </div> 
-      <main >
+      <main id="maindom">
         <section class="introgrid">
           <div id="intro1">
-
+            <p>
+              Discovered in 1492 by Christopher Columbus, the country overflows with fascinating history,
+              museums and exciting cultural experiences like music, art and festivals, plus uniquely Dominican
+              specialties such as cigars, rum, chocolate, coffee, merengue, amber and larimar.
+              <br><br>
+              The #1 destination for golf in the Caribbean and Latin America, Dominican Republic delights
+              visitors with 26 designer golf courses amid breathtaking coastlines with mountain backdrops
+              and lush green fairways. With so many beautiful natural settings like romantic waterfalls,
+              breathtaking coasts and idyllic accommodations, Dominican Republic is a top destination for weddings and romance.
+              Many world class-resorts and hotels also cater to meetings and incentive groups who flock to Dominican Republic for excellent,
+              friendly service and dynamic meeting venues.
+              <br><br>
+              Dominican Republic offers a fantastic combination of environments to capture your imagination and refresh the soul.
+              And with eight international airports, paradise has never been easier to explore. We invite you to discover our
+              breathtaking island sanctuary and create memories that will last a lifetime.
+            </p>
           </div>
           <div id="intro2">
-            
+            <h2>Location</h2>
+            <p>
+              Surrounded by the Atlantic Ocean on the north and the Caribbean Sea on the south,
+              our lush tropical island paradise boasts nearly 1,000 miles (1,609 km) of coastline,
+              250 miles (402 km) of the world’s top beaches, magnificent resorts and hotels, and a variety of sports,
+              recreation and entertainment options. Here you can dance to the pulse pounding thrill of the merengue,
+              renew in our luxurious and diverse accommodations, explore ancient relics of centuries past, delight 
+              in delicious Dominican gastronomy or enjoy ecotourism adventures in our magnificent national parks, mountain ranges, rivers, and beaches.
+          </p>
           </div>
-
-
         </section>
-
         <section class="selectiongrid">
           <div class="hotel1 hover">
-            <img src="./images/domhotel/hardrock.jpg" class="medium-centre-img">
-            <h4>Hard Rock Hotel</h4>
+            <a href = "#hardrock">
+              <img src="./images/domhotel/hardrock.jpg" class="small-centre-img">
+              <h4>Hard Rock<br> Cap Cana</h4>
+            </a>
           </div>
           <div class="hotel2 hover">
-            <img src="./images/domhotel/breathless.jpg" class="medium-centre-img">
-            <h4>Breathless <br>Punta Cana</h4>
+            <a href = "#breathless">
+              <img src="./images/domhotel/breathless.jpg" class="small-centre-img">
+              <h4>Breathless <br>Punta Cana</h4>
+            </a>
           </div>
           <div class="hotel3 hover">
-            <img src="./images/domhotel/secrets.jpg" class="medium-centre-img">
-            <h4>Secrets<br> Royal Beech</h4>
+            <a href = "#secretsrb">
+              <img src="./images/domhotel/secrets.jpg" class="small-centre-img">
+              <h4>Secrets<br> Royal Beech</h4>
+            </a>
           </div>
           <div class="hotel4 hover">
-            <img src="./images/domhotel/onyx.jpg" class="medium-centre-img">
-            <h4>Onyx</h4>
+            <a href = "#onyx">
+              <img src="./images/domhotel/onyx.jpg" class="small-centre-img">
+              <h4>Onyx <br>Punta Cana</h4>
+            </a>
           </div>
           <div class="hotel5 hover">
-            <img src="./images/domhotel/sivory.jpg" class="medium-centre-img">
-            <h4>Sivory</h4>
+            <a href = "#sivory">
+              <img src="./images/domhotel/sivory.jpg" class="small-centre-img">
+              <h4>Sivory<br> Royal Beech</h4>
+            </a>
           </div>
           <div class="hotel6 hover">
-            <img src="./images/domhotel/secretscap.jpg" class="medium-centre-img">
-            <h4>Secrets <br> Cap Cana</h4>
+            <a href = "#secretscc">
+              <img src="./images/domhotel/secretscap.jpg" class="small-centre-img">
+              <h4>Secrets <br> Cap Cana</h4>
+            </a>
           </div>
           <div class="hotel7 hover ">
-            <a class="anchor" href = "#Eden"><img src="./images/domhotel/eden.jpg" class="medium-centre-img">
-            <h4>Eden</h4></a>
+            <a href = "#Eden">
+              <img src="./images/domhotel/eden.jpg" class="small-centre-img">
+            <h4>Eden Roc <br> Cap Cana</h4>
+          </a>
           </div>
         </section>
         <section class="hotelsgrid">
-          <div class="hoteldisplay">
-            <h3>Hard Rock Hotel</h3>
-            <p>
-              It’s all rock star swagger and high-end glamour at this supersized
-              resort set on sparkling white sands stretching 121-acres along Macao Beach.
-              There’s 13 expansive pools with swim-up bars and waterslides, 
-              nine globe-spanning restaurants, 23 signature bars and lounges
-              <br><br>
-              It’s all rock star swagger and high-end glamour at this supersized
-              resort set on sparkling white sands stretching 121-acres along Macao Beach.
-              There’s 13 expansive pools with swim-up bars and waterslides, 
-              nine globe-spanning restaurants, 23 signature bars and lounges
-
-            </p>
-
+          <div class="hoteldisplay" id="hardrock">
+            <div class="titlespeil">
+            <h3>Hard Rock Hotel - Cap Cana</h3>
+              <p>
+                It’s all rock star swagger and high-end glamour at this supersized
+                resort set on sparkling white sands stretching 121-acres along Macao Beach.
+                There’s 13 expansive pools with swim-up bars and waterslides, 
+                nine globe-spanning restaurants, 23 signature bars and lounges
+                <br><br>
+                It’s all rock star swagger and high-end glamour at this supersized
+                resort set on sparkling white sands stretching 121-acres along Macao Beach.
+                There’s 13 expansive pools with swim-up bars and waterslides, 
+                nine globe-spanning restaurants, 23 signature bars and lounge.
+              </p>
+          </div>
             <img src="./images/domhotel/hardrock.jpg" class="medium-centre-img">
             
           </div>
-          <div class="hoteldisplay">
-            <h3>Breathless Punta Cana</h3>
-            <p>
-              If you want a beautiful beach right on your doorstep,
-              this upscale sleep is set on the golden sands in Uvero Alto -
-              one of the most gorgeous villages on Punta Cana’s Coconut Coast.
-              Offering a heady dose of Dominican Republic glitz and glamour in the
-              comfort of a resort complex.
-            </p>
+          <div class="hoteldisplay" id="breathless">
+            <div class="titlespeil">
+              <h3>Breathless - Punta Cana</h3>
+              <p>
+                If you want a beautiful beach right on your doorstep,
+                this upscale sleep is set on the golden sands in Uvero Alto -
+                one of the most gorgeous villages on Punta Cana’s Coconut Coast.
+                Offering a heady dose of Dominican Republic glitz and glamour in the
+                comfort of a resort complex.
+                <br><br>
+                If you want a beautiful beach right on your doorstep,
+                this upscale sleep is set on the golden sands in Uvero Alto -
+                one of the most gorgeous villages on Punta Cana’s Coconut Coast.
+                Offering a heady dose of Dominican Republic glitz and glamour in the
+                comfort of a resort complex.
+                
+              </p>
+            </div>
             <img src="./images/domhotel/breathless.jpg" class="medium-centre-img">
           </div>
-          <div class="hoteldisplay">
-            <h3>Secrets Royal Beech</h3>
-            <p>
-              A vast sugar-white beach edged with palm trees dominates the view at this adults-only escape.
+          <div class="hoteldisplay" id="secretsrb">
+            <div class="titlespeil">
+              <h3>Secrets - Royal Beech</h3>
+              <p>
+                A vast sugar-white beach edged with palm trees dominates the view at this adults-only escape.
                 There’s a large free-form pool that winds through the perfectly manicured gardens
                 and a slew of fun attractions that include a four-lane bowling alley and an
-                  on-site casino.
-            </p>
+                on-site casino.
+                <br><br>
+                A vast sugar-white beach edged with palm trees dominates the view at this adults-only escape.
+                There’s a large free-form pool that winds through the perfectly manicured gardens
+                and a slew of fun attractions that include a four-lane bowling alley and an
+                on-site casino.
+              </p>
+            </div>
+          
             <img src="./images/domhotel/secrets.jpg" class="medium-centre-img">
           </div>
-          <div class="hoteldisplay">
-            <h3>Onyx</h3>
+          <div class="hoteldisplay" id="onyx">
+            <div class="titlespeil">
+            <h3>Onyx - Punta Cana</h3>
             <p>
               Set on a remote, palm-studded beach in Uvero Alto,
               this contemporary-styled resort is perfect for families,
               groups of friends, and honeymooners who don’t mind children.
               There’s five superb pools (including an infinity pool, children’s pool, and saltwater pool),
-              limitless gourmet à la carte dining and top-shelf beverages 
+              limitless gourmet à la carte dining and top-shelf beverages.
+              <br><br>
+              Set on a remote, palm-studded beach in Uvero Alto,
+              this contemporary-styled resort is perfect for families,
+              groups of friends, and honeymooners who don’t mind children.
+              There’s five superb pools (including an infinity pool, children’s pool, and saltwater pool),
+              limitless gourmet à la carte dining and top-shelf beverages.
             </p>
+          </div>
             <img src="./images/domhotel/onyx.jpg" class="medium-centre-img">
           </div>
-          <div class="hoteldisplay">
-            <h3>Sivory</h3>
+          <div class="hoteldisplay" id="sivory">
+            <div class="titlespeil">
+            <h3>Sivory - Royal Beech</h3>
             <p>
               Flaunting its new good looks following a recent refurb, this small-scale boutique hotel
               to the north of Punta Cana lays on the luxury with a private palm-studded beach,
@@ -140,13 +200,13 @@
               There’s a chic and elegant look in the 55 garden-facing suites, all of which have air-con,
               ceiling fans, and plenty of living space. Available in five categories, you’ll have a private
               balcony with daybeds, separate lounge area, flatscreen TV with free movies, tea and coffee-making
-              facilities, and a minibar. The en-suite bathrooms have bathtubs and showers, bathrobes and slippers,
-              make-up mirrors, hairdryers, fluffy white towels, and free ETRO toiletries.
-            </p>
+              facilities, and a minibar.
+          </div>
             <img src="./images/domhotel/sivory.jpg" class="medium-centre-img">
           </div>
-          <div class="hoteldisplay">
-            <h3>Secrets Cap Cana</h3>
+          <div class="hoteldisplay" id="secretscc">
+            <div class="titlespeil">
+            <h3>Secrets - Cap Cana</h3>
             <p>
               Opened in 2016 as the 15th property in the Secrets’ portfolio,
               this adults-only resort is located within the gated community of Cap Cana
@@ -157,15 +217,15 @@
               The 457 ultra-stylish suites have plenty of mood-setting luxuries.
               Expect king-size beds (or two doubles), furnished balconies or terraces with deep-soaking tubs,
               flatscreen TVs with CD/DVD players, and marble-clad bathrooms with rain showers,
-              plush bathrobes and slippers, and free bath goodies. The salubrious Preferred Club suites
-              have a living room with dining area, two flatscreen TVs, an espresso machine,
-              and far more living space.
+              plush bathrobes and slippers, and free bath goodies.
             </p > 
+          </div>
             <img   src="./images/domhotel/secretscap.jpg" class="medium-centre-img">
             
           </div>
           <div class="hoteldisplay" id="Eden" >
-            <h3>Eden Roc</h3>
+            <div class="titlespeil">
+            <h3>Eden Roc - Cap Cana</h3>
             <p>
               Setting the luxury benchmark for the Dominican Republic higher than ever before,
               this boutique resort is located in Cap Cana - the sparkling 30,000-acre gated
@@ -176,9 +236,9 @@
               Further luxe touches include an iPad that controls everything in the room
               (temperature, television, Bose surround sound speakers), a Nespresso machine,
               and access to 4,500 newspaper and magazine titles via a free PressReader app.
-              Bathrooms have coral stone bathtubs with marble Jacuzzis, Acqua di Parma toiletries,
-              and plush bathrobes.
+             
             </p> 
+            </div>
             <img src="./images/domhotel/eden.jpg" class="medium-centre-img"> 
           </div>
         </section>

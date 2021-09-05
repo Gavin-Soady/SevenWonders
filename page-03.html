@@ -2,9 +2,11 @@
   <head>
     <link rel="stylesheet" href="css/home.css">
     <title>Home Page</title>
-    <style>
-      
-  </style>
+    <script>
+      var shiftWindow = function() { scrollBy(0, -120) };
+        if (location.hash) shiftWindow();
+        window.addEventListener("hashchange", shiftWindow);  
+    </script>
   </head>
   <body>
     <div class="container">
@@ -32,41 +34,168 @@
         </h1>
       </div>
     </div>
-      <div id="maincontent">
-        <div id="primary">
+    <main id="mainsl">
+      <section class="introgrid">
+        <div id="intro1">
           <p>
-            Morbi euismod eu tortor nec vehicula. Nullam tempor ligula sit amet
-            pulvinar luctus. Phasellus efficitur libero metus, in convallis arcu
-            laoreet at. Suspendisse quis lectus tortor. Donec fermentum iaculis
-            massa, et congue odio luctus quis. Sed faucibus mi quis ex
-            pellentesque tempus.
-          </p>
-          <p>
-            Aliquam volutpat lorem eu erat cursus consequat. Integer lobortis
-            tellus nec dui ultricies, a ornare ipsum hendrerit. Vivamus nunc
-            sem, vehicula in scelerisque ac, imperdiet ut massa. Morbi sed
-            blandit dolor. Nunc suscipit luctus massa, quis iaculis mi vehicula
-            ut. Sed id sem congue ipsum tempor commodo vitae a massa. Nulla
-            facilisi.
-          </p>
-          <p>
-            Class aptent taciti sociosqu ad litora torquent per conubia nostra,
-            per inceptos himenaeos. Quisque interdum leo nec semper convallis.
+            Of course, St Lucia is a wonderful place for all kinds of holidays.
+            If you want a family holiday or an all-inclusive, but it is also the perfect a honeymoon
+            destination for an
+            adult-only break for some well-earned peace and quiet, St Lucia has a holiday
+            to suit your needs. There are so many kinds of holiday to choose from: you can
+            explore the local culture, take part in ocean watersports, or just watch the world
+            go by with a relaxing beach holiday – St Lucia has something for everyone.
+            <br><br>
+            The unique culture of the island’s 174,000 inhabitants is a result of its French
+            and British colonial history, mixed in with that of the indigenous people
+            – and this melting pot is behind many of the islands delights:
+            from amazing food to the fabulous carnivals, St Lucia is a truly fabulous holiday
+            destination.
           </p>
         </div>
-        <div id="secondary">
-          <p>
-            Curabitur tempor enim vitae ex tristique tincidunt. Phasellus vel
-            dui ut odio iaculis maximus. Nulla consequat nulla eu tellus
-            placerat, viverra condimentum purus commodo. Ut ut molestie augue.
-            Praesent ut imperdiet sem. Suspendisse potenti.
-          </p>
-          <p>
-            Nam convallis, nibh ut posuere luctus, massa quam eleifend massa, ut
-            vehicula lorem nunc non purus.
-          </p>
+        <div id="intro2">
+          <h2>Location</h2>
+            Nestling between the Caribbean Sea and the Atlantic Ocean, St Lucia – with 98 miles
+            of coastline – is a postcard-perfect island paradise. Even inland, the lush tropical
+            rainforests and twin volcanic peaks of the Pitons, which soar 2,500ft into the sky,
+            make for an idyllic island experience.
         </div>
-      </div>
+      </section>
+      <hr>
+        <section id="stluciahands">
+        <section class="hotelsgridmauritius">
+          <div class="hoteldisplaystlucia" id="hardrock">
+            <img src="./images/stluciahotel/hotel1.jpg" class="medium-centre-img">
+            <div class="titlespeilsl">
+            <h3>Rendezvous</h3>
+              <p>
+                Rendezvous is an all-inclusive couples only resort set on a beautiful
+                 stretch of white sand beach close to Castries Airport. It offers a relaxing
+                 and intimate holiday plus a great range of sports and activities, the ideal
+                  location for a romantic holiday.
+              </p>
+            </div>
+            
+          </div>
+          <div class="hoteldisplaystlucia" id="breathless">
+            <img src="./images/stluciahotel/hotel2.jpg" class="medium-centre-img">
+            <div class="titlespeilsl">
+              <h3>Coconut Bay Beach Resort & Spa</h3>
+              <p>
+                Spanning 85 lush acres fringed with coconut palms, the 250 room Coconut Bay Resort & Spa
+                is set along the exotic Savannes Bay on the island’s undiscovered south coast.
+                Choose a variety of sports for land and water lovers of all ages.
+              </p>
+            </div>
+            
+          </div>
+          <div class="hoteldisplaystlucia" id="secretsrb">
+            <img src="./images/stluciahotel/hotel3.jpg" class="medium-centre-img">
+            <div class="titlespeilsl">
+              <h3>St James’s Club Morgan Bay</h3>
+              <p>
+                Since St. James’s Club Morgan Bay became a part of the Elite Islands portfolio
+                there have been some big changes. We loved it before but the recently completed
+                multi-million pound upgrade have improved it from a great beachside resort into
+                something truly magical
+              </p>
+            </div>  
+          </div>
+          <div class="hoteldisplaystlucia" id="onyx">
+            <img src="./images/stluciahotel/hotel4.jpg" class="medium-centre-img">
+            <div class="titlespeilsl">
+            <h3>BodyHoliday</h3>
+            <p>
+              Indulge in the rare amenity of daily complimentary spa treatments at this all-inclusive,
+              luxury hotel. With an award-winning spa, fantastic sports and extravagant facilities nestled
+              on a volcanic sandy beach, this is an experience that allows you to be as active or as relaxed
+              as you like.
+            </p>
+          </div>
+            
+          </div>
+          <div class="hoteldisplaystlucia" id="sivory">
+            <img src="./images/stluciahotel/hotel5.jpg" class="medium-centre-img">
+            <div class="titlespeilsl">
+            <h3>Serenity at Coconut Bay</h3>
+            <p>
+              Flaunting its new good looks following a recent refurb, this small-scale boutique hotel
+              to the north of Punta Cana lays on the luxury with a private palm-studded beach,
+              fabulous infinity pool, well-appointed fitness centre,
+              and excellent gourmet restaurants that offer food and wine pairings. Vivamus posuere metus urna
+          </div>
+            
+          </div>
+          <div class="hoteldisplaystlucia" id="secretscc">
+            <img   src="./images/stluciahotel/hotel6.jpg" class="medium-centre-img">
+            <div class="titlespeilsl">
+            <h3>East Winds</h3>
+            <p>
+              Hidden along St Lucia's southeast coast, this adult-only, all-suite resort has all you need
+              for a luxurious and romantic getaway for two. Relax by your private plunge pool, laze in a hammock,
+              and enjoy a drink from your very own personalised wet bar. All with butler service too - bliss.
+            </p > 
+          </div> 
+          </div>
+          <div class="hoteldisplaystlucia" id="Eden">
+            <img src="./images/stluciahotel/hotel7.jpg" class="medium-centre-img"> 
+            <div class="titlespeilsl">
+            <h3>Jade Mountain</h3>
+            <p>
+              Nestled on the lush, tropical island of St. Lucia and set amongst 12 acres of gardens
+              the East Winds enjoys a friendly villa community feel, private, relaxed and truly beautiful.
+            </p> 
+            </div>
+          </div>
+        </section>
+        <section class="selectiongridmauritius">
+          <div class="hotelm1">
+            <a href = "#hardrock">
+              <img src="./images/stluciahotel/hotel1.jpg" class="small-centre-img">
+              <h4>Rendezvous</h4>
+            </a>
+          </div>
+          <div class="hotelm1">
+            <a href = "#breathless">
+              <img src="./images/stluciahotel/hotel2.jpg" class="small-centre-img">
+              <h4>Coconut Bay Beach Resort & Spa</h4>
+            </a>
+          </div>
+          <div class="hotelm1">
+            <a href = "#secretsrb">
+              <img src="./images/stluciahotel/hotel3.jpg" class="small-centre-img">
+              <h4>St James’s Club Morgan Bay</h4>
+            </a>
+          </div>
+          <div class="hotelm1">
+            <a href = "#onyx">
+              <img src="./images/stluciahotel/hotel4.jpg" class="small-centre-img">
+              <h4>BodyHoliday</h4>
+            </a>
+          </div>
+          <div class="hotelm1">
+            <a href = "#sivory">
+              <img src="./images/stluciahotel/hotel5.jpg" class="small-centre-img">
+              <h4>Serenity at Coconut Bay</h4>
+            </a>
+          </div>
+          <div class="hotelm1">
+            <a href = "#secretscc">
+              <img src="./images/stluciahotel/hotel6.jpg" class="small-centre-img">
+              <h4>East Winds</h4>
+            </a>
+          </div>
+          <div class="hotelm1">
+            <a href = "#Eden">
+              <img src="./images/stluciahotel/hotel7.jpg" class="small-centre-img">
+            <h4>Jade Mountain</h4>
+          </a>
+          </div>
+          <div class="scrollfill">
+          </div>
+        </section>
+      </section>
+    </main>
       <footer>
         <p>Spider-Web Design 2020</p>
       </footer>   
